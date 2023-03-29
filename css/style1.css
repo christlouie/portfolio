@@ -1,0 +1,112 @@
+body {
+  font-family: 'Roboto Condensed', sans-serif;
+  background: #f9f9f9;
+  color: #333;
+}
+
+.intro {
+  background: #000055;
+  background-size: cover;
+  padding: 1em 0 2em 0;
+  
+}
+
+.intro img {
+  -webkit-box-shadow: 0px 0px 40px rgba(255, 255, 255, 0.3);
+  box-shadow: 0px 0px 40px rgba(255, 255, 255, 0.3);
+}
+
+.text-white {
+  color: #fff;
+}
+
+.text-white h1 {
+  font-size: 48px;
+}
+
+.tagline {
+  font-size: 18px;
+  font-style: italic;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Racing Sans One', cursive;
+}
+
+.center {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.center-70 {
+  display: block;
+  margin: 1em auto;
+  width: 70%;
+  min-width: 280px;
+}
+
+.center-70 p {
+  font-size: 16px;
+  line-height: 1.75;
+}
+
+#quote {
+  margin: 2em 0;
+  padding: .5em 0;
+  background: #000055;
+  color: #ffffff;
+}
+
+blockquote {
+  border-left: 5px solid #aaaaaa;
+  font-style: italic;
+  margin: 3em 0;
+}
+
+blockquote i {
+  font-size: 32px !important;
+  color: #aaaaaa;
+  margin-right: 10px;
+}
+
+cite {
+  font-family: 'Racing Sans One', cursive;
+  color: #aaaaaa;
+  margin-left: 1em;
+  font-size: 20px;
+}
+
+.pad-4 {
+  padding: 4em 0;
+}
+
+.pad-4 a {
+  font-size: 18px;
+  color: #000099;
+  text-decoration: underline;
+}
+
+.credits {
+  margin: 1em auto;
+  font-size: 16px;
+}
+
+footer {
+  width: 100%;
+  padding: 1em 0;
+  background: #000055;
+  color: #fff;
+}
+.kobe{
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  
+}

@@ -1,0 +1,32 @@
+body { font-family: 'Arial', serif;
+    margin-top: 70px;
+    background:url(https://previews.123rf.com/images/tovovan/tovovan1111/tovovan111101903/11333322-Airplanes-background-Stock-Vector-airplane-aircraft-aviation.jpg) repeat center fixed;
+  background-size:contain;
+    
+  }
+  div.jumbotron {background-color:rgba(210,241,243,0.8);
+  }
+  div.row h1 {color:black;
+    font-family: Comic Sans MS ,  sans;
+  }
+  div.row i {color:#207dcb;
+  font-size:80px;}
+  
+  div.thumbnail{background-color:rgba(210,241,243,0.1);
+  border-color:rgba(210,241,243,0.1)}
+  img {
+  width:70%;
+     }
+  #olv1 img {border-radius:50%; width: 55%;
+      height: auto;
+  }
+  #wil1 img {border-radius:50%; width: 55%;
+      height: auto;}
+      
+.thumbnail{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  
+}

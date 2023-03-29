@@ -1,0 +1,300 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  padding: 50px;
+  justify-content: center;
+  background-color: #f8f8ff;
+  font-size: 14px;
+  line-height: 20px;
+  color: #636366;
+  font-family: 'Oxygen', sans-serif;
+}
+ul {
+  padding: 0;
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #3b4144;
+}
+h1,h2,h3,h4,h5,h6 {
+  margin: 0;
+}
+h1 {
+  line-height: 60px;
+}
+h2 {
+  font-size: 22px;
+  font-family: 'Open Sans', sans-serif;
+}
+h3 {
+  font-size: 15px;
+  letter-spacing: 0.5px;
+  margin-bottom: 10px;
+}
+h4 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+h5 {
+  font-size: 13px;
+  line-height: 25px;
+}
+p {
+  font-size: 13px;
+  line-height: 23px;
+}
+.resume {
+  margin: 0 auto;
+  max-width: 850px;
+  min-width: 700px;
+  border: solid #fff 7px;
+  padding: 25px;
+  overflow: hidden;
+}
+.decoration {
+  width: 300px;
+  height: 100px;
+  background: linear-gradient(135deg, #ffb2e4, #82d5ff);
+  border-radius: 70px;
+  position: absolute;
+  transform: rotate(-30deg);
+}
+.decoration:nth-of-type(1) {
+  top: -95px;
+  left: 74%;
+}
+.decoration:nth-of-type(2) {
+  top: 40px;
+  left: 71%;
+  width: 400px;
+}
+.top,.left,.right,.footer {
+  padding: 15px;
+}
+.content {
+  display: flex;
+}
+.left {
+  flex: 5;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+.right {
+  flex: 8;
+  padding-left: 40px;
+  border-left: 3px solid #fff;
+}
+.top {
+  display: flex;
+  position:relative;
+  margin-bottom: 20px;
+}
+.footer {
+  margin-top: 30px;
+  padding-left: 40px;
+}
+.myPhoto,.nameCircle {
+  width: 120px;
+  height: 120px;
+  background-color: #fff;
+  border-radius: 50%;
+  margin-left: 10px;
+  background-image: url("https://scontent.fmnl13-2.fna.fbcdn.net/v/t39.30808-6/330292843_1339464723270719_6557773387504399220_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=174925&_nc_eui2=AeEuV--VEs1ZRCy9DbXptfMZxx-4uRqBwUHHH7i5GoHBQTpiIg5F-2GGgZVtzCbloljbVNGctw2vTD6Yv3bpOMgF&_nc_ohc=7TMeEAVnnMoAX-VoV0w&_nc_ht=scontent.fmnl13-2.fna&oh=00_AfDvbp0TBxsIBJkIq5Rs2BwXAAF34rxpe9phhJPG24nQog&oe=64258F05");
+  background-size: 120px 120px;
+  background-position: center;
+}
+.nameCircle {
+  position: absolute;
+  left: 35px;
+  z-index: -1;
+  background: linear-gradient(135deg, #ffb2e4, #82d5ff);
+  border: none;
+}
+.myName {
+  padding-left: 40px;
+  padding-top: 10px;
+}
+.circle {
+  width: 90px;
+  height: 90px;
+  background-color: #fff;
+  border-radius: 50%;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  border: 1px solid #3b4144;
+  background-size: 90px 90px;
+  background-position: center;
+}
+.circle-image1 {
+  background-image: url("https://thumbs.dreamstime.com/z/gamepad-logo-video-game-symbol-vector-illustration-85549138.jpg")
+}
+.circle-image2 {
+  background-image: url("https://media.istockphoto.com/id/1038356020/vector/restaurant-icon.jpg?s=612x612&w=0&k=20&c=Tk_v3JuJA4lz_8ZRJi78xS4p75Idqt97uEtYJciVtFI=")
+}
+.circle-image3 {
+  background-image: url("data:image/png;base64,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")
+}
+.circle-image4 {
+  background-image: url("https://static.vecteezy.com/system/resources/thumbnails/007/501/853/small/sleep-nap-night-solid-line-icon-illustration-logo-template-suitable-for-many-purposes-free-vector.jpg")
+}
+
+.buttons {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+.btn {
+  padding: 5px 20px;
+  background-color: #fbfbff;
+  margin-right: 10px;
+  border: 1px solid #636366;
+  font-family: 'Open Sans', sans-serif;
+}
+.btn:hover {
+  background: linear-gradient(135deg, #ffb2e4, #82d5ff);
+  border: 1px solid #ddd;
+  color: #fff;
+}
+.listPassion {
+  display: flex;
+  flex-wrap: wrap;
+}
+.listPassion > li {
+  width: 50%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  justify-content: center;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+}
+.listSkill {
+  margin-bottom: 40px;
+}
+.listSkill > ul{
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.listSkill >li {
+  padding-left: 10px;
+}
+.skillLevel {
+  width: 65px;
+  height: 55px;
+  border: 3px solid #dfdfff;
+  border-radius: 50%;  
+  text-align: center;
+  position: relative;
+  margin-left: 10px;
+  padding-top: 13px;
+  z-index: -2;
+}
+.level1,.level2 {
+  position: absolute;
+  background-color: #F8F8FF;
+  z-index: -1;
+}
+.level1 {
+  width: 35px;
+  height: 30px;
+  left: -3px;
+  top: 22px;
+}
+.level2 {
+  width: 65px;
+  left: -3px;
+  top: -3px;
+  height: 30px;
+}
+.listAward > li {
+  margin-top: 10px;
+  padding-left: 10px;
+  font-family: 'Open Sans', sans-serif;
+}
+.footer {
+  position: relative;
+}
+.footerCircle {
+  width: 140px;
+  height: 140px;
+  background: linear-gradient(135deg, #ffb2e4, #82d5ff);
+  position: absolute;
+  border-radius: 50%;
+  top: 30px;
+  left: -100px;
+  z-index: -1;
+} 
+.time {
+  padding-left: 30px;
+  width: 100%;
+  height: 60px;
+  margin-bottom: 27px;
+  position: relative;
+}
+.decorationLine {
+  position: absolute;
+  height: 6px;
+  margin-top: 20px;
+  line-height: 35px;
+  font-family: 'Open Sans', sans-serif;
+}
+.decorationCircle {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #82d5ff;
+}
+.decorationLine:nth-of-type(1) {
+  width: 35%;
+  top: -20px;
+  left: 20px;
+  background: linear-gradient(135deg, #ffb2e4, #82d5ff);
+} 
+.decorationCircle:nth-of-type(2) {
+  top: 0px;
+  left: 40%;
+}
+.decorationLine:nth-of-type(3) {
+  width: 50%;
+  left: 36%;
+  top: 0px;
+  background: linear-gradient(135deg, #ffb2e4, #82d5ff);
+}
+.decorationCircle:nth-of-type(4) {
+  top: 20px;
+  left: 89%;
+}
+.decorationLine:nth-of-type(5) {
+  width: 25%;
+  left: 69%;
+  top: 20px;
+  background: linear-gradient(135deg, #ffb2e4, #82d5ff);
+} 
+.decorationCircle:nth-of-type(6) {
+  top: 40px;
+  left: 97%;
+}
+.listExperience {
+  display: flex;
+  padding-left: 30px;
+}
+.listExperience > li {
+  padding-left: 20px;
+  flex: 3;
+}
+.listExperience li ul {
+  font-size: 13px;
+  line-height: 20px;
+  margin-top: 10px;
+  padding-left: 15px;
+  border-left: 3px solid #dfdfff;
+   background-color: pink; 
+}
+.listExperience > li > ul > li {
+  margin-top: 13px;
+} 
+
